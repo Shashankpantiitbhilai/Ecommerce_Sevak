@@ -1,2 +1,2 @@
 # Ecommerce_Sevak
-A dark pattern buster chrome extension for all commercial websites
+A dark pattern buster extension for all commercial websites
