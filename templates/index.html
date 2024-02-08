@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Classification App</title>
+</head>
+<body>
+    <h1>Model</h1>
+    <form action="/predict" method="post">
+        <label for="user_input">Enter Text:</label>
+        <input type="text" id="user_input" name="user_input" required>
+        <button type="submit">Predict</button>
+    </form>
+    {% if user_input %}
+        <p>You entered: {{ user_input }}</p>
+        <p>Model Prediction: {{ result }}</p>
+    {% endif %}
+</body>
+</html>
