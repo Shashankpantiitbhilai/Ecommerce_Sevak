@@ -33,7 +33,7 @@ Dark Pattern Buster is a project aimed at identifying and mitigating dark patter
 - **Backend:** Node.js, Express.js, Python
 - **Frameworks:** Flask
 - **Database:** SQLite, MongoDB
-- **Payment Gateway:** Razorpay
+
 
 The `server` folder contains the Node.js server for features like privacy policy check and user-reported dark patterns. The `api` folder contains the Python server that automatically detects dark patterns on websites.
 
