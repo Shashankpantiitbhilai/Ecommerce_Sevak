@@ -1,0 +1,34 @@
+<!-- views/result.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+    />
+    <link rel="stylesheet" href="css/popup.css" type="text/css" />
+    <style>
+      .list-container {
+        width: 80%;
+        margin: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="popup3" class="popup">
+      <div class="modal-header">
+        <h1>Ecommerce Sevak</h1>
+      </div>
+      <div class="list-container">
+        <ul>
+          <li>
+            <!-- Output from the /policy route will be displayed here -->
+            <%= output %>
+          </li>
+        </ul>
+      </div>
+      <button class="accept-button"><a href="/">Back</a></button>
+    </div>
+  </body>
+</html>

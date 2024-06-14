@@ -1,0 +1,241 @@
+/* html, body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    min-height: 180;
+    width: 296px;
+    border:#00131f;
+    color: #FFFFFF;
+    background-color:#4c78a8 ;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+button {
+    background-color: yellow;
+    border: none;
+    font-size: 16px;
+    padding: 12px 12px;
+    margin: 8px 0px 8px 0px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 2px 1px #00131f;
+    width: 100%;
+    transition: background-color 0.2s ease;
+}
+
+button:active {
+    background-color: #ef5350;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.modal-header {
+    border:#00131f;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 3px 2px 1px #00131f;
+    background-color: #1f77b4;
+    padding: 3px;
+}
+
+.modal-content {
+    padding: 0px 16px 0px 16px;
+}
+
+.modal-footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 3px 3px 8px 3px;
+}
+
+.container {
+    border: #00131f;
+    background-color: #042538;
+    margin: 8px 0px 8px 0px;
+    padding: 6px 14px 6px 14px;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0px 3px 2px 1px #00131f;
+}
+
+.container p {
+    margin: 0px;
+}
+
+.label {
+    color: #B8B8B8;
+    margin: 0px;
+    font-weight: 150;
+}
+
+.number, .total-number {
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+.modal-footer a {
+    color: #D8D8D8;
+} */
+html, body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    min-height: 80vh;
+    width: 80vh;
+    color: #FFFFFF;
+    background-color: #1a1a1a;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    background-color: #ffbf00;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px; /* Reduced height */
+    margin: 10px auto; /* Center align buttons */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%; /* Slightly increased width */
+    max-width: 300px; /* Set max-width for responsiveness */
+    transition: background-color 0.2s ease;
+}
+
+button:active {
+    background-color: #ff7043;
+}
+
+.analyze-button:active {
+    background-color: #ff7043;
+}
+
+.accept-button {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: #FFFFFF; /* Text color */
+    font-size: 18px;
+    padding: 10px 20px; /* Reduced height */
+    margin: 10px auto; /* Center align buttons */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%; /* Slightly increased width */
+    max-width: 300px; /* Set max-width for responsiveness */
+    transition: background-color 0.2s ease;
+}
+
+.accept-button:active {
+    background-color: #45a049; /* Darker shade when active */
+}
+
+#userInput {
+    width: 90%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
+#userInput:focus {
+    outline: none;
+    border-color: #007bff; /* Focus color */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.modal-header {
+    align-items: center;
+    text-align: center;
+    background-color: #005cb2;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.modal-footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 12px;
+}
+
+.container {
+    background-color: #333333;
+    margin: 16px 0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.container p {
+    margin: 0;
+}
+
+.label {
+    color: #B8B8B8;
+    margin: 0;
+    font-weight: 300;
+}
+
+.number, .total-number {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.modal-footer a {
+    color: #D8D8D8;
+}
+/* css/popup.css */
+
+.privacy-summary {
+   
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    /* Adjust as needed */
+}
+
+.privacy-summary p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+}
+.popup{
+margin-left: 40px;
+}

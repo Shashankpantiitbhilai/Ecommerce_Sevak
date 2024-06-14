@@ -1,0 +1,75 @@
+.insite-highlight {
+    position: relative;
+    background: rgb(225, 37, 87);
+    color: black;
+    /* Set the text color to black */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Add a subtle box shadow for a pop-out effect */
+    font-weight: bold;
+    /* Adjust font weight for emphasis */
+    animation: alertAnimation 0.5s ease-in-out;
+    /* Apply the animation for alert effect */
+}
+
+@keyframes alertAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.insite-highlight .insite-highlight-body {
+    font-size: 12px;
+    font-weight: 150;
+
+    margin: 0;
+  	width: 200px;
+    color: #ef0d0d;
+    background-color: #041F30;
+
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -100px;
+
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.insite-highlight-body .modal-header {
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 3px 2px -1px #00131f;
+    background-color: #05283D;
+    padding: 3px;
+}
+
+.insite-highlight-body .modal-header h1 {
+    color: white;
+
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.insite-highlight-body .modal-content {
+    padding: 8px 16px 8px 16px;
+    font-size: 12px;
+    font-weight: 150;
+    color: red;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.insite-highlight:hover .insite-highlight-body {
+	visibility: visible;
+	opacity: 1;
+}
