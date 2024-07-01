@@ -93,11 +93,4 @@ For more detailed information, you can view the project documentation:
 
 ---
 
-Made with ❤️ by Ecommerce Sevak
 
-### Team: Ecommerce Sevak
-- **Shashank Pant**
-- **Shivam**
-- **Ayush Kumar Mishra**
-- **Ayush Patel**
-- **Rohan Kumar Mishra** (Team Leader)
